@@ -6,8 +6,8 @@ from django.forms import inlineformset_factory
 from main.forms import CreateUserForm
 
 
-def home(request):
-    return render(request,'main/home.html')
+def index(request):
+    return render(request,'main/index.html')
 
 def registerPage(request):
     form=CreateUserForm()
