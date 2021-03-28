@@ -57,22 +57,54 @@
 
             <h1>Create Account</h1>
             <br>
-            <div class="mb-3">
-              <label for="exampleInputEmail1" class="form-label">Username</label>
-              {{form.username}}
-            </div>
-            <div class="mb-3">
-                <label for="exampleInputPassword1" class="form-label">Email</label>
-                {{form.email}}
-            </div>
-            <div class="mb-3">
-              <label for="exampleInputPassword1" class="form-label">Password</label>
-              {{form.password1}}
-            </div>
-            <div class="mb-3">
-                <label for="exampleInputPassword1" class="form-label">Confirm Password</label>
-                {{form.password2}}
-            </div>
+            <!-- <div class="mb-3"> -->
+              <!-- <label for="exampleInputEmail1" class="form-label">Username</label> -->
+              <!-- {{form.username}} -->
+            <!-- </div> -->
+            <!-- <div class="mb-3"> -->
+                <!-- <label for="exampleInputPassword1" class="form-label">Email</label> -->
+                <!-- {{form.email}} -->
+            <!-- </div> -->
+            <!-- <div class="mb-3"> -->
+              <!-- <label for="exampleInputPassword1" class="form-label">Password</label> -->
+              <!-- {{form.password1}} -->
+            <!-- </div> -->
+            <!-- <div class="mb-3"> -->
+                <!-- <label for="exampleInputPassword1" class="form-label">Confirm Password</label> -->
+                <!-- {{form.password2}} -->
+            <!-- </div> -->
+
+            <table>
+              <tr>
+                <td>Username:</td>
+                <td>
+                  <label for="exampleInputEmail1" class="form-label"></label>
+                  {{form.username}}
+                </td>
+              </tr>
+              <tr>
+                <td>Email:</td>
+                <td>
+                  <label for="exampleInputPassword1" class="form-label"></label>
+                  {{form.email}}
+                </td>
+              </tr>
+              <tr>
+                <td>Password:</td>
+                <td>
+                  <label for="exampleInputEmail1" class="form-label"></label>
+                  {{form.password1}}
+                </td>
+              </tr>
+              <tr>
+                <td>Confirm Password:</td>
+                <td>
+                  <label for="exampleInputPassword1" class="form-label"></label>
+                  {{form.password2}}
+                </td>
+              </tr>
+            </table>
+
             <button type="submit" class="btn btn-primary">Submit</button>
           </form>
           <a href="/login/" class="navbar-brand d-flex align-items-center">
