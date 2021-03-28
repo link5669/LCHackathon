@@ -21,7 +21,7 @@ def DSPage(request):
     return render(request,'main/DS.html')
 
 def physicsPage(request):
-    render(request,'main/physics.html')
+    return render(request,'main/physics.html')
 
 def chemistryPage(request):
     return render(request,'main/chemistry.html')
